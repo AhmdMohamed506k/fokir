@@ -1,0 +1,1509 @@
+/* xs */
+@media screen and (max-width: 517.9px) { 
+/** NAVBAR  */
+  .navbar{
+  position: fixed;
+  width: 100vw;
+  margin-bottom: -90px;   
+  z-index: 3000; 
+  }
+  .navbar-collapse{
+  width: 70%;
+  position: fixed;
+  top: 70px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 0.6px white solid;
+  border-radius: 30px;
+
+  
+  }
+  .navbar-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .slider{
+  position:static;
+  z-index: 1;
+  transform:translateX(4px) translateY(-1px);                  
+  }
+   
+/** == */
+
+
+
+
+
+
+/* !  Section ====> 2 */
+
+
+
+  /* ?   BODY */
+  #secondSection{
+  height: 100%;
+  }
+  #secondSection .container {
+  max-width: 93vw;
+  margin: auto;
+  }
+
+  /* &  IMAGE */
+  .socialBorder{
+  border: none;
+  width: 150%;
+  margin-bottom: 13px;
+  margin-left: -14%;
+  }
+  .imgContainer{
+  left: 0;
+  top: 0;
+  }
+
+ /* Todo ====> TEXTs */
+  .HelloTitle{
+   
+  }
+  #ImgCol{  
+  margin-right: 50px;
+  }
+  #TextCol{
+  margin-right: 59%;
+  transform: scale(97%);
+  }
+  .AboutHeroP{
+  width: 82vw;
+  font-size: 15px;
+  margin-bottom: 2px;
+  margin-left: -5px;
+  }
+  .content{  
+  width: 290%;
+  margin-bottom: 8px;
+  }
+  /* ~  LISTs */
+  .ListGroup{
+  width: 331%;
+  margin-left: -14px;
+  flex-direction: column;
+  margin-bottom: -11px;
+  }
+  .ListGroup .list1  {
+  margin-bottom: -13px;
+  }
+  .ListGroup .list1 ul li .listSpanContant , .ListGroup .list2 ul li .listSpanContant ,.ListGroup .list2 ul li .listSpanContant a{
+  font-size: 14px;
+  }
+  .ListGroup .list1 ul li .listSpan , .ListGroup .list2 ul li .listSpan{
+  font-size: 13px;
+  }
+  /* ^  BuTTONS */
+  .btnGroup{
+  width:460%;
+  display: flex;
+  transform:translateX(-18%) scale(68%);  
+  }
+
+
+/*! ==== */
+
+
+
+
+
+
+
+/* ~  ourServicesSection ====> START */
+
+  /**======== body ========= */
+
+  #ourServicesSection{
+  height: 100%;
+  }
+  #ourServicesSection .container{
+  width: 98vw;  
+  }
+  /* ? ================ CARDS__STYLES =================== */
+  #ourServicesSection .container .ourServicesSectionContant .row{
+  transform:translateX(-2.5%);
+  width: 98vw;
+  flex-direction: column;
+  flex-wrap: nowrap;  
+  }
+  .ourServicesSectionContant .row .col-lg-3 {  /*  services Section cards style   */
+  transform:translateX(6%) scale(110%);
+  width: 80vw;
+  margin:3% 2% 5% 2%;
+  }
+  .ourServicesSectionContant .row .col-lg-3 .cardBody{
+  margin-bottom: 5vw;
+  width:60vw;
+  }
+  /*^ ========  TEXTS  ======== */
+  .OurServicesTitle{
+  font-size: 140%;
+  width: 67%;
+  margin-left: 17%;
+  }
+  .OurServicesTitle::after{ 
+  left: 24%;
+  width: 50%;
+  }
+  .OurServicesTitle::before{  
+  left: 44%;
+  width: 11%;
+  }
+  .ourServicesSectionContant .row .cardBody i{
+  margin-left:-2 px;
+  }
+  .ourServicesSectionContant .row .cardBody h3{
+  font-size:4vw;
+  width: 70vw;
+  margin-left: -48.3px;
+  transform: scale(96%);
+  }
+  .ourServicesSectionContant .row .cardBody  p{  /*  services Section pragraf styles on the cards   */
+  width: 54vw;
+  margin-left: -20px;
+  transform: scale(95%);
+  }
+
+
+/*~ === */
+
+
+
+
+
+
+
+
+
+
+
+/**   PortfolioSection====> START */
+
+  /* ~=========>  SectionBODY */
+  .PortfolioSectionContent .tab-content .tab-pane .row{
+  flex-wrap: wrap;
+  transform: translateX();
+  }
+  .PortfolioSectionContent .tab-content .tab-pane .row .col-4{
+  width: 73%;
+  margin-bottom: 20px;
+  }
+  /* ^=========>  SectionTexts */
+  .PortfolioSectionContent h2{
+  font-size: 126%;
+  width: 67%;
+  margin-left: 17%;
+  }
+  .PortfolioSectionContent h2::after{
+  left: 30%;
+  width: 40%;
+  }
+  .PortfolioSectionContent h2::before{  
+  left: 44%;
+  width: 14%;
+  }
+ 
+
+/** ====  */
+
+
+
+
+
+
+
+/*?   OUR_TeamSection ====> START */
+  #ourTeamSection{
+  height: 50rem;
+  padding: 23% 0%;
+  }
+  #ourTeamSection .container{
+  margin: auto;
+  width: 90%;
+  }
+  #ourTeamSection .ourTeamsectionContant{
+  margin: auto;
+  width: 80%;
+  }
+  #ourTeamSection .container .ourTeamsectionContant .row{
+  width: 70%;
+  margin: auto;
+  }
+  #ourTeamSection .container .ourTeamsectionContant .row .col-md-3 {
+  margin: auto;
+  width: 60%;
+  margin-bottom: 33%;
+  }
+
+  #ourTeamSection .container .ourTeamsectionContant .row .col-md-3 .OurTeamCardBody{ 
+  margin: auto;
+  width: 100%; 
+  }
+  /* !====> TEXTS */
+  .OurTeamCardBody h3{
+  font-size: 19px;
+  }
+  .OurTeamCardBody h5{
+  font-size: 13px;
+  width: 200%;
+  }
+  
+
+/*? == */
+
+
+
+
+
+
+/*? =====>  clientFeedBackSection ==>  start --> */
+  #clientFedBackSection{
+  height: 100%;
+  padding-bottom: 40%;
+  }
+ .clientCardBody {
+  margin-left: 5%;
+  box-shadow: 70px  2px  20px 21px rgba(0, 0, 0, 0.1);
+
+  }
+ 
+  .clientCardBody .carousel-inner {
+ 
+  height: 29.5rem;
+  width: 160%;
+  padding: 10px;
+  
+  }
+  .clientCardBody .carousel-control-next{
+  left: 141%;
+  }
+
+  #clientFedBackSection .container{
+    width: 96%;
+  }
+
+
+  /* *====Texts */
+
+  .sectionTitleContainer h2{
+  font-size: 126%;
+  width: 67%;
+  margin-left: 17%;
+  }
+  .sectionTitleContainer h2::after{
+  left: 30%;
+  width: 40%;
+  }
+  .sectionTitleContainer h2::before{  
+  left: 44%;
+  width: 14%;
+  }
+   
+
+
+
+  /*!====cardTexts */
+  .cardTextBody{
+  bottom: -136px;
+  left: 14px;
+  width: 97%;
+ 
+  }
+  .cardTextBody  p{
+  width: 98%;
+ 
+  }
+
+  
+
+  /*? ===> CardsImage&Icons  */
+  .clientCardBody .carousel-inner .carousel-item img{
+  left: 28%;
+  top: 50px;
+  min-width: 40%;
+  margin-bottom: -50px;
+  }
+
+
+
+
+
+
+
+
+/*~ =====>  OurBlogSection ==>  start --> */
+
+
+  /*&====BODY */
+  #OurBlogSection .OurBlogcardContainer .ourBlogCard .row{
+    flex-wrap: wrap;
+    }
+    #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4{
+      width: 75%;
+      margin: auto;
+      margin-bottom: 60px;
+    }
+  
+  
+  
+    /**====Texts */
+    #OurBlogSection h2{
+    font-size: 146%;
+    width: 67%;
+    margin-left: 17%;
+    }
+    #OurBlogSection h2::after{
+    left: 30%;
+    width: 40%;
+    }
+    #OurBlogSection h2::before{  
+    left: 44%;
+    width: 14%;
+    }
+       
+    
+    
+    /*^ CardsBody */
+    #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 iframe{
+    width: 99.5%;
+    height: 223px;
+    margin-bottom: -6.1px;
+    position: relative;
+    left: 2px;
+    }
+    #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 .ourBlogCardText{
+    padding: 20px;
+    margin-bottom: -5px;
+    }
+    
+    /*^ CardsText */
+    #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 .ourBlogCardText .OurBlogCardTitle{
+    font-size: 4.8vw;
+    font-weight:600;
+    }
+    #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 .ourBlogCardText .Time{
+    margin-bottom: 7px;
+    }
+    #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 .ourBlogCardText p{
+    margin-top: 3px;
+    }
+    #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 .ourBlogCardText .OurBlogReadMeAncor{
+    font-size: 14px;
+    }
+          
+
+    #ContactUsSection .container .form-grop .container .goup2 .ContactUsBTN{
+     
+    }
+      
+  /*~ ===== */
+  
+  
+
+
+
+/*& =====>  ContactUsSection ==>  start --> */
+  #ContactUsSection .container .form-grop .container {
+  width: 150%;
+  margin-left: -25%;
+  }
+  #ContactUsSection .ContactUsSectionCantant h2{
+  font-size: 146%;
+  width: 67%;
+  margin-left: 17%;
+  }
+  #ContactUsSection h2::after{
+  left: 30%;
+  width: 40%;
+  }
+  #ContactUsSection h2::before{  
+  left: 44%;
+  width: 14%;
+  }
+  
+/*& ===== */
+  
+
+
+
+
+
+/*! =====>  ContactUsSection ==>  start --> */
+#footerSection{
+  padding-bottom: 20px;
+}
+#footerSection  .Footercontent {
+  width:90%;
+  margin: auto;
+
+  
+}
+#footerSection  .Footercontent .row .list{
+  width: 70%;
+
+}
+#footerSection  .Footercontent .row{
+  width: 70%;
+}
+#footerSection  .Footercontent p{
+
+}
+}
+
+/* sm */
+@media (min-width: 518px) and (max-width:767px) {
+
+/* NAVBAR  */
+  .navbar{
+  position:fixed;
+  width: 100vw;
+  margin-bottom: -90px;  
+  z-index: 3000;
+  }
+  .navbar-collapse{
+  width: 70%;
+  position: fixed;
+  top: 70px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 0.6px white solid;
+  border-radius: 30px;
+  
+  }
+
+  .navbar-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .slider{
+  position:static;
+  z-index: 1;
+  transform:translateX(4px) translateY(-1px);                  
+  }
+
+/* == */
+
+
+
+
+
+
+
+
+
+/* !  Section ====> 2 */
+
+  /* ?   BODY */
+  #secondSection{
+  height: 100%;
+  }
+  #secondSection .container {
+  max-width: 450px;
+  margin: auto;
+  }
+  /* &  IMAGE */
+  .socialBorder{
+  border: none;
+  min-width: 100%;
+  margin-bottom: 13px;
+  margin-left: -14%;
+  }
+  .imgContainer{
+  left: 0;
+  top: 0;
+  }
+  .socialLayer{  
+
+    min-width: 100%;
+  }
+
+  /* Todo ====> TEXTs */
+  #ImgCol{
+    margin-left: 1em;
+  }
+  #TextCol{
+  margin-right: 250px;
+  transform: scale(97%);
+  }
+  .AboutHeroP{
+  width: 390px;
+  font-size: 15px;
+  margin-bottom: 2px;
+  }
+  .content{  
+  width: 290%;
+  margin-bottom: 8px;
+  }
+
+
+  /* ~  LISTs */
+  .ListGroup{
+  width: 241%;
+  margin-left: -9px;
+  flex-direction: column;
+  margin-bottom: -11px;
+  }
+  .ListGroup .list1  {
+  margin-bottom: -13px;
+  }
+  .ListGroup .list1 ul li .listSpanContant , .ListGroup .list2 ul li .listSpanContant ,.ListGroup .list2 ul li .listSpanContant a{
+  font-size: 14px;
+  }
+  .ListGroup .list1 ul li .listSpan , .ListGroup .list2 ul li .listSpan{
+  font-size: 13px;
+  }
+  /* ^  BuTTONS */
+  .btnGroup{
+  width:320%;
+  display: flex;
+  transform:translateX(-14%) scale(73%);
+  
+  }
+
+/*!==== */
+
+
+
+
+
+/* ~  ourServicesSection ====> START */
+
+  /**======== body ========= */
+  #ourServicesSection{
+  height: 100%;
+  }
+  /* ? ================ CARDS__STYLES =================== */
+  #ourServicesSection .container .ourServicesSectionContant .row{
+  transform:translateX(3%);
+  width: 490px;
+  }
+  .ourServicesSectionContant .row .col-lg-3 {  
+  transform: scale(110%);
+  width: 92%;
+  margin:3% 2% 5% 2%;
+  }
+
+
+  /*^ ========  TEXTS  ======== */
+  .OurServicesTitle{
+  font-size: 166%;
+  width: 67%;
+  margin-left: 17%;
+  }
+  
+  .OurServicesTitle::after{ /*  services Section row under  the title     */ 
+  left: 24%;
+  width: 50%;
+  }
+  .OurServicesTitle::before{  /*  services Section row under  the title     */
+  left: 41%;
+  width: 15%;
+  }
+
+
+/*~ ===== */
+
+
+
+/**   PortfolioSection====> START */
+
+  /* ~=========>  SectionBODY */
+
+  .PortfolioSectionContent .tab-content .tab-pane .row{
+  flex-wrap: wrap;
+  transform: translateX();
+  }
+  .PortfolioSectionContent .tab-content .tab-pane .row .col-sm-4{
+  width: 73%;
+  margin-bottom: 20px;
+  }
+
+
+  /* ^=========>  SectionTexts */
+
+  .PortfolioSectionContent h2{
+  font-size: 166%;
+  width: 67%;
+  margin-left: 17%;
+  }
+  .PortfolioSectionContent h2::after{
+  left: 25%;
+  width: 50%;
+  }
+  .PortfolioSectionContent h2::before{  
+  left: 43%;
+  width: 15%;
+  }
+
+/** == */
+
+
+
+
+/*&   OUR_TeamSection ====> START */
+  #ourTeamSection{
+  height: 50rem;
+  width: 100%;
+  }
+  #ourTeamSection .container{
+  margin: auto;
+  width: 90%;
+  }
+  #ourTeamSection .ourTeamsectionContant{
+  margin: auto;
+  width: 80%;
+  }
+  #ourTeamSection .container .ourTeamsectionContant .row{
+  width: 70%;
+  margin: auto;
+  }
+  #ourTeamSection .container .ourTeamsectionContant .row .col-md-3 {
+  margin: auto;
+  width: 60%;
+  margin-bottom: 17%;
+  }
+  #ourTeamSection .container .ourTeamsectionContant .row .col-md-3 .OurTeamCardBody{
+  margin: auto;
+  width: 100%;
+  }
+  
+  
+
+/*&==== */
+
+
+
+
+
+/*? =====>  clientFeedBackSection ==>  start --> */
+  .clientCardBody {
+  margin-left: 110px;
+  }
+  .clientCardBody .carousel-inner {
+  height: 440px;
+  width: 400px;
+  }
+
+
+  /* *====Texts */
+
+  .sectionTitleContainer h2{
+  font-size: 30px;
+  }
+  .sectionTitleContainer h2::after{
+  bottom: -20px;
+  left: 21.5%;
+  }
+  .sectionTitleContainer h2::before{  
+  left: 40%;
+  }
+
+
+
+
+  /*!====cardTexts */
+  .cardTextBody{
+  bottom: -146px;
+  left: 15px;
+  width: 97%;
+ 
+  }
+  .cardTextBody  p{
+  width: 92%;
+  }
+
+  
+
+  /*? ===> CardsImage&Icons  */
+  .clientCardBody .carousel-inner .carousel-item img{
+  left: 140px;
+  width: 30%;
+  margin-bottom: -50px;
+  }
+
+/*? === */
+
+
+
+
+
+
+
+
+/*~ =====>  OurBlogSection ==>  start --> */
+
+
+  /*&====BODY */
+  #OurBlogSection .OurBlogcardContainer .ourBlogCard .row{
+  flex-wrap: wrap;
+  }
+  #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 60px;
+  }
+
+
+
+  /**====Texts */
+  #OurBlogSection h2{
+  font-size: 32px;
+
+  }
+  #OurBlogSection h2::after{
+  bottom: -20px;
+  left: 32.1%;
+  }
+  #OurBlogSection h2::before{  
+  left: 43.8%;
+  bottom: -23.9px;
+  }
+   
+  
+  
+  /*^ CardsBody */
+  #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 iframe{
+  width: 99.5%;
+  height: 223px;
+  margin-bottom: -6.1px;
+  position: relative;
+  left: 2px;
+  }
+  #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 .ourBlogCardText{
+  padding: 20px;
+  margin-bottom: -5px;
+  }
+  
+  /*^ CardsText */
+  #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 .ourBlogCardText .OurBlogCardTitle{
+  font-size: 19px;
+  font-weight:600;
+  }
+  #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 .ourBlogCardText .Time{
+  margin-bottom: 7px;
+  }
+  #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 .ourBlogCardText p{
+  margin-top: 3px;
+  }
+  #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 .ourBlogCardText .OurBlogReadMeAncor{
+  font-size: 14px;
+  }
+        
+    
+/*~ ===== */
+
+
+
+
+
+/*& =====>  ContactUsSection ==>  start --> */
+  #ContactUsSection .container .form-grop .container {
+ 
+  width: 150%;
+  margin-left: -25%;
+  }
+#ContactUsSection .ContactUsSectionCantant h2{
+  font-size: 32px;
+  }
+  #ContactUsSection h2::after{
+  bottom: -20px;
+  left: 31.6%;
+  }
+  #ContactUsSection h2::before{  
+  left: 43%;
+  bottom: -23.95px;
+  }
+
+/*& ===== */
+
+
+
+}
+
+/* md */
+@media (min-width: 768px) and (max-width:991px) {
+
+  /* NAVBAR  */
+  .navbar{
+    position:fixed;
+    width: 100vw;
+    margin-bottom: -90px;  
+    z-index: 3000;
+    }
+    .navbar-collapse{
+    width: 70%;
+    position: fixed;
+    top: 70px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 0.6px white solid;
+    border-radius: 30px;
+    
+    }
+  
+    .navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .slider{
+    position:static;
+    z-index: 1;
+    transform:translateX(4px) translateY(-1px);                  
+    }
+  
+  /* == */
+
+
+
+
+
+/* !  Section ====> 2 */
+
+  #secondSection .container  .row{
+  flex-wrap: wrap;
+  justify-content: center; 
+  }
+  /* &  IMAGE */
+  .socialBorder{
+  border: none;
+  width: 130%;
+  margin-left: -54px;    
+  }
+  .imgContainer{
+  left: 0;
+  top: 0;   
+  }
+  .socialLayer{  
+
+    min-width: 100%;
+  }
+   /* Todo ====> TEXTs */
+   
+  #ImgCol{
+  transform: translateX(-32%);     
+  }
+  #TextCol{
+  transform: translateX(-15%);
+  }
+  .AboutHeroP{
+  width: 105%;
+  margin-bottom: -1px;
+  margin-left: -5px;
+  }
+  .content{   
+  width: 140%;
+  margin-bottom: 5px;
+  }
+
+  /* ~  LISTs */
+  .ListGroup{
+  width: 141%;
+  margin-left: -12px;
+  margin-bottom: -15px;
+  }
+  .ListGroup .list1 ul li .listSpanContant , .ListGroup .list2 ul li .listSpanContant ,.ListGroup .list2 ul li .listSpanContant a{
+  font-size: 14px;
+  }
+  .ListGroup .list1 ul li .listSpan , .ListGroup .list2 ul li .listSpan{
+  font-size: 13px;
+  }
+  /* ^  BuTTONS */
+  .btnGroup{
+  width:160%;
+  display: flex;
+  transform:translateX(-54px) scale(70%);
+  margin-left: -7px;
+  }
+/*!=======  */
+
+
+
+
+
+
+
+/* ~  ourServicesSection ====> START */
+
+  /**======== body ========= */
+  #ourServicesSection{
+  height: 100%;
+  }
+
+  /* ? ================ CARDS__STYLES =================== */
+  #ourServicesSection .container .ourServicesSectionContant .row{
+  transform:translateX(0%);
+  width: 690px;
+  }
+  .ourServicesSectionContant .row .col-lg-3 {  /*  services Section cards style   */
+  transform:translateX(12.3%) scale(110%);
+  width: 40%;
+  margin:3% 2% 5% 2%;
+  }
+
+
+  /*^ ========  TEXTS  ======== */
+  .OurServicesTitle::after{ 
+  bottom: -20px;
+  left: 35%;
+  }
+  .OurServicesTitle::before{  
+  left: 43.6%;
+  }
+
+ 
+/*~===== */
+
+
+
+
+/**   PortfolioSection====> START */
+
+  /* ~=========>  SectionBODY */
+  .PortfolioSectionContent .tab-content .tab-pane .row{
+  flex-wrap: wrap;
+  }
+  .PortfolioSectionContent .tab-content .tab-pane .row .col-md-4{
+  width: 45%;
+  margin-bottom: 20px;
+  }
+
+
+  /* ^=======  Text */
+  .PortfolioSectionContent h2{
+    font-size: 30px;
+  }
+  .PortfolioSectionContent h2::after{
+  bottom: -20px;
+  left: 35%;
+  }
+  .PortfolioSectionContent h2::before{  
+  left: 43.6%;
+  }
+
+/**===== */
+
+
+
+
+
+/*&   OUR_TeamSection ====> START */
+  #ourTeamSection{
+  height: 19rem;
+  }
+  #ourTeamSection .OurTeamCardBody{
+  width: 210px;
+  transform: translateX(10px);
+  }
+  /* !====> TEXTS */
+  .OurTeamCardBody h3{
+  font-size: 19px;
+  }
+  /* *====> icons */
+  .OurTeamCardBody i{
+  margin-bottom: 19px;
+  } 
+
+/*&===== */
+
+
+
+
+/*? =====>  clientFeedBackSection ==>  start --> */
+.clientCardBody {
+  margin-left: 149px;
+  }
+
+
+
+  /* *====Texts */
+
+  .sectionTitleContainer h2{
+  font-size: 30px;
+  }
+  .sectionTitleContainer h2::after{
+  bottom: -20px;
+  left: 29%;
+  }
+  .sectionTitleContainer h2::before{  
+  left: 43%;
+  }
+
+
+
+
+
+
+/*~ =====>  OurBlogSection ==>  start --> */
+
+
+  /*&====BODY */
+
+
+
+
+
+  /**====Texts */
+  #OurBlogSection h2{
+  font-size: 32px;
+  }
+  #OurBlogSection h2::after{
+  bottom: -20px;
+  left: 36.8%;
+  }
+  #OurBlogSection h2::before{  
+  left: 45.3%;
+  bottom: -23.9px;
+  }
+ 
+
+
+  /*^ CardsBody */
+  #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 iframe{
+  width: 213px;
+  height: 123px;
+  margin-bottom: -6.1px;
+  position: relative;
+  left: 2px;
+  }
+  #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 .ourBlogCardText{
+  padding: 20px;
+  margin-bottom: -5px;
+  }
+
+  /*^ CardsText */
+  
+
+  #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 .ourBlogCardText .OurBlogCardTitle{
+  font-size: 15px;
+  font-weight:600;
+ 
+  }
+  #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 .ourBlogCardText .Time{
+  margin-bottom: 7px;
+  }
+  #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 .ourBlogCardText p{
+  margin-top: 3px;
+  }
+  #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 .ourBlogCardText .OurBlogReadMeAncor{
+  font-size: 14px;
+  }
+      
+  
+/*~ === */
+
+
+/*& =====>  ContactUsSection ==>  start --> */
+
+
+#ContactUsSection .container .form-grop .container {
+ 
+  width: 150%;
+  margin-left: -25%;
+  }
+
+
+
+
+  #ContactUsSection .ContactUsSectionCantant h2{
+  font-size: 32px;
+  }
+  #ContactUsSection h2::after{
+  bottom: -20px;
+  left: 36.8%;
+  }
+  #ContactUsSection h2::before{  
+  left: 45.3%;
+  bottom: -23.9px;
+  }
+
+/*& ===== */
+
+
+}
+
+
+/* lg */
+@media (min-width: 992px) and (max-width:1199.9px) {
+ 
+
+/* !  Section ====> 2 */
+
+  #ImgCol{
+  transform: translateX(-21%);
+  }
+  #TextCol{
+  transform: translateX(-7%);  
+  }
+  .AboutHeroP{
+  width: 110%;
+  }
+ /* ?  BuTTONS */
+  .btnGroup{
+  width:90%;
+  display: flex;
+  flex-wrap: nowrap;
+  transform:translateX(-54px) scale(80%); 
+  }
+  .socialLayer{  
+
+    min-width: 100%;
+  }
+
+/*!===== */
+
+
+
+/**  ourServicesSection ====> START */
+
+
+
+  /* ? ================ CARDS__STYLES =================== */
+  #ourServicesSection .container .ourServicesSectionContant .row{
+  width: 850px;
+  }
+  .ourServicesSectionContant .row .col-lg-3 { 
+  transform:translateX(-22%) scale(80%);
+  }
+
+
+  /*^ ========  TEXTS  ======== */
+  .OurServicesTitle::after{ 
+  bottom: -20px;
+  left: 38.5%;
+  }
+  .OurServicesTitle::before{  
+  left: 45%;
+  }
+
+
+
+
+/** == */
+
+
+
+
+
+/*&   PortfolioSection====> START */
+
+  .PortfolioSectionContent .tab-content .tab-pane .row .col-md-4{
+  margin-left: 10px;
+  }
+  /* ^=======  Text */
+  .PortfolioSectionContent h2{
+  font-size: 32px;
+  }
+  .PortfolioSectionContent h2::after{
+  bottom: -20px;
+  left: 38.5%;
+  }
+  .PortfolioSectionContent h2::before{  
+  left: 45%;
+  }
+
+
+/*& == */
+
+
+
+
+/**   OUR_TeamSection ====> START */
+
+  #ourTeamSection .OurTeamCardBody{
+  width: 240px;
+  transform: translateX(20px);
+  }
+
+/** == */
+
+
+
+
+
+
+/*? =====>  clientFeedBackSection ==>  start --> */
+  .clientCardBody {
+  margin-left: 195px;
+  }
+
+
+
+  /* *====Texts */
+
+  .sectionTitleContainer h2{
+  font-size: 32px;
+  }
+  .sectionTitleContainer h2::after{
+  bottom: -20px;
+  left: 34.5%;
+  }
+  .sectionTitleContainer h2::before{  
+  left: 45%;
+  }
+/*? ==== */
+
+
+
+
+
+
+
+/*~ =====>  OurBlogSection ==>  start --> */
+
+
+  /*&====BODY */
+
+
+
+
+
+  /**====Texts */
+  #OurBlogSection h2{
+  font-size: 32px;
+  margin-left: -1px;
+  }
+  #OurBlogSection h2::after{
+  bottom: -20px;
+  left: 40.1%;
+  }
+  #OurBlogSection h2::before{  
+  left: 46.8%;
+  bottom: -23.9px;
+  }
+  #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 .ourBlogCardText .OurBlogCardTitle{
+  font-size: 21px;
+  font-weight:600;
+
+  }
+  #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 .ourBlogCardText .Time{
+  margin-bottom: 7px;
+  }
+  #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 .ourBlogCardText p{
+   
+    margin-top: 3px;
+  }
+  
+  /*^ CardsBody */
+  #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 iframe{
+  width: 295px;
+  height: 166px;
+  margin-bottom: -6.1px;
+  position: relative;
+  left: 2px;
+  }
+  #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 .ourBlogCardText{
+  padding: 20px;
+  margin-bottom: -5px;
+  }
+
+/*~ ===== */
+
+
+
+/*& =====>  ContactUsSection ==>  start --> */
+
+
+#ContactUsSection .container .form-grop .container {
+ 
+  width: 150%;
+  margin-left: -25%;
+  }
+
+#ContactUsSection .ContactUsSectionCantant h2{
+  font-size: 32px;
+  }
+  #ContactUsSection h2::after{
+  bottom: -20px;
+  left: 40.1%;
+  }
+  #ContactUsSection h2::before{  
+  left: 46.3%;
+  bottom: -23.9px;
+  }
+
+/*& ===== */
+
+
+
+
+}
+
+/* xl */
+@media (min-width: 1200px) and (max-width: 1400px) { 
+
+
+
+/* !  Section ====> 2 */
+.socialLayer{  
+
+  min-width: 100%;
+}
+  #ImgCol{
+  margin-right: 20px; 
+  }
+  #TextCol{
+  margin-left: 20px;
+  }
+/*!==== */
+
+
+
+
+/* ~  ourServicesSection ====> START */
+
+  /*^ ========  TEXTS  ======== */
+  .OurServicesTitle::after{ /*  services Section row under  the title     */
+  bottom: -20px;
+  left: 41.4%;
+  }
+  .OurServicesTitle::before{  /*  services Section row under  the title     */
+  left: 46.5%;
+  }
+/*~===== */
+
+
+
+/**   PortfolioSection====> START */
+
+  /* ?=====> BODY */
+  .PortfolioSectionContent .tab-content .tab-pane .row{
+  width: 105%;
+  }
+  .PortfolioSectionContent .tab-content .tab-pane .row .col-xl-4{
+  margin-left: -10px;
+  }
+
+  /* ^=======  Text */
+  .PortfolioSectionContent h2{
+  font-size: 32px;
+  }
+  .PortfolioSectionContent h2::after{
+  bottom: -20px;
+  left: 41.4%;
+  }
+  .PortfolioSectionContent h2::before{  
+  left: 46.5%;
+  }
+
+
+/** == */
+
+
+
+
+/*&   OUR_TeamSection ====> START */
+
+  #ourTeamSection .OurTeamCardBody{
+  margin-left: -72px;
+  }
+
+/* &======== */
+
+
+
+
+/*? =====>  clientFeedBackSection ==>  start --> */
+  .clientCardBody {
+  margin-left: 230px;
+  }
+
+
+
+  /* *====Texts */
+  .sectionTitleContainer h2{
+  font-size: 32px;
+  }
+  .sectionTitleContainer h2::after{
+  bottom: -20px;
+  left: 36.4%;
+  }
+  .sectionTitleContainer h2::before{  
+  left: 45%;
+  
+  }
+/*? ==== */
+
+
+
+
+
+
+/*~ =====>  OurBlogSection ==>  start --> */
+
+
+  /*&====BODY */
+
+
+
+
+
+  /* *====Texts */
+  #OurBlogSection h2{
+  font-size: 32px;
+  }
+  #OurBlogSection h2::after{
+  bottom: -20px;
+  left: 41.7%;
+  }
+  #OurBlogSection h2::before{  
+  left: 46.8%;
+  bottom: -23.9px;
+  }
+
+
+
+  /*^ CardsBody */
+  #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 iframe{
+  width: 355px;
+  height: 200px;
+  margin-bottom: -6.1px;
+  position: relative;
+  left: 2px;
+  }
+  #OurBlogSection .OurBlogcardContainer .ourBlogCard .row .col-md-4 .ourBlogCardText{
+  margin-bottom: -5px;
+  }
+/* ~======= */
+
+
+
+
+
+/*& =====>  ContactUsSection ==>  start --> */
+
+#ContactUsSection .container .form-grop .container {
+ 
+  width: 150%;
+  margin-left: -25%;
+  }
+
+
+
+
+
+
+  #ContactUsSection .ContactUsSectionCantant h2{
+  font-size: 32px;
+  }
+  #ContactUsSection h2::after{
+  bottom: -20px;
+  left: 41.4%;
+  }
+  #ContactUsSection h2::before{  
+  left: 46.8%;
+  bottom: -23.9px;
+  }
+
+/*& ==== */
+
+}
+
+
+@media  (min-width:1400px) and (max-width: 1500px){
+
+  
+}
